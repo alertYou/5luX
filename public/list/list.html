@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="/assets/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="/assets/font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="/plugins/swiper/swiper-bundle.css"/>
+		<link rel="stylesheet" type="text/css" href="list.css"/>
+		<script>window.PointerEvent = undefined</script>
+		<title>商品列表</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<div class="top">
+					<span class="btn-return"></span>
+					<p class="list-title"></p>
+					<span class="btn-search"></span>
+				</div>
+				<div class="swiper-container title-wrapper">
+					<ul class="swiper-wrapper">
+					
+					</ul>
+				</div>
+				
+			</div>
+			<ul class="order-wrapper">
+				<li data-col="price" class="active asc">
+					<span>价格</span>
+					<i class="iconfont icon-desc"></i>
+					<i class="iconfont icon-asc"></i>
+				</li>
+				<li data-col="sale" class="asc">
+					<span>销量</span>
+					<i class="iconfont icon-desc"></i>
+					<i class="iconfont icon-asc"></i>
+				</li>
+				<li data-col="rate" class="asc">
+					<span>评论</span>
+					<i class="iconfont icon-desc"></i>
+					<i class="iconfont icon-asc"></i>
+				</li>
+			</ul>
+			<div class="content">
+				<div class="scroll-wrapper">
+					<ul class="product-list">
+						
+					</ul>
+					<p class="tip"></p>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		
+		<script src="/assets/js/jQuery-1.8.2.js"></script>
+		<script src="/assets/js/jquery.query.js"></script>
+		<script src="/plugins/swiper/swiper-bundle.js"></script>
+		<script src="/plugins/layer/layer.js"></script>
+		<script src="/assets/js/iscroll-probe.js"></script>
+		<script src="/assets/js/imagesloaded.js"></script>
+		<script src="list.js">
+			
+		</script>
+	</body>
+</html>

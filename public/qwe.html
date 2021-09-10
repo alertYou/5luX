@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="plugins/swiper/swiper-bundle.css"/>
+		<style>
+			.banner {
+				width: 50vw;
+				height: 30vw;
+				margin: 0 auto;
+			}
+			.banner div {
+				width: 100%;
+				height: 100%;
+			}
+			.banner-wrapper>.swiper-scrollbar>div.swiper-scrollbar-drag {
+				width: 3vw !important;
+			}
+		</style>
+		<title></title>
+	</head>
+	<body>
+		<div class="swiper-container banner-wrapper">
+			<div class="swiper-wrapper banner">
+				<div style="background-color: red" class="swiper-slide"></div>
+				<div style="background-color: green" class="swiper-slide"></div>
+				<div style="background-color: blue" class="swiper-slide"></div>
+			</div>
+			<div class="swiper-scrollbar"></div>
+		</div>
+		
+		<script src="plugins/swiper/swiper-bundle.js"></script>
+		<script>
+		new Swiper('.swiper-container',{
+		  scrollbar: {
+		    el: '.swiper-scrollbar',
+		    draggable: true,
+		    snapOnRelease: false,
+		  },
+		}); </script>
+	</body>
+</html>

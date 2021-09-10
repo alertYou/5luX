@@ -1,0 +1,313 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.content-wrapper {
+	flex-grow: 1;
+	overflow: auto;
+}
+.content-wrapper::-webkit-scrollbar {
+	display: none;
+}
+.header {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	height: 15.686274vw;
+	padding: 0 2.5vw;
+	background-color: rgb(132, 93, 50);
+}
+.header>img {
+	width: 10vw;
+	height: 7.843137vw;
+}
+.header>.search {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	height: 8vw;
+	margin-left: 3vw;
+	background-color: #f0f0f0;
+	border-radius: 6vw;
+}
+.header>.search>img {
+	width: 5.602241vw;
+	height: 5.602241vw;
+	margin: 0 2vw;
+}
+.header>.search>span {
+	flex-grow: 1;
+	font-size: 3.5vw;
+	color: #888888;
+}
+.footer>ul>li:nth-child(1)>a>i {
+	background-position: 0 14.285714%;
+}
+.banner {
+	height: 44.817927vw;
+}
+.banner>div {
+	box-sizing: border-box;
+	padding-right: 4vw;
+	text-align: right;
+}
+.content {
+	background-color: rgb(244, 244, 244);
+}
+.content>.banner>.swiper-pagination>span {
+	margin: 0 0.5vw;
+	opacity: 0.9;
+	height: 1vw;
+	background-color: #fff;
+	border-radius: 0px;
+}
+.content>.banner>.swiper-pagination>span.swiper-pagination-bullet-active {
+	height: 2.5vw;
+}
+.content-container {
+	box-sizing: border-box;
+	padding: 0 2.666667vw;
+}
+.nav-wrapper {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	padding: 3.7333333vw 0;
+}
+.nav-wrapper>div {
+	width: 17.333333vw;
+	height: 19.2vw;
+	text-align: center;
+}
+.nav-wrapper>div>img {
+	width: 13.333333vw;
+}
+.nav-wrapper>div>span {
+	padding-top: 1vw;
+	font-size: 3vw;
+	color: #000;
+}
+.img-link {
+	height: 21.2vw;
+}
+.img-link>img {
+	width: 100%;
+}
+.discount {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 1.5vw;
+}
+.discount>li {
+	width: 22.72vw;
+}
+.discount>li:nth-child(1) {
+	background: url(/images/index/1742078092f165b18938c366bf2ab7eb.png) no-repeat;
+	background-size: 100%;
+}
+.discount>li>img {
+	width: 100%;
+}
+.crowd-funding {
+	box-sizing: border-box;
+	padding: 2vw 2.5vw;
+	background: url(/images/index/efaf252fb1ef07bb22395bc3649a127d.png) no-repeat;
+	background-size: 100% auto;
+	background-color: #fff;
+	border-radius: 1.5vw;
+}
+.content-reset-header {
+	box-sizing: border-box;
+	padding: 0 2.133333vw;
+	display: flex;
+	height: 11.466667vw;
+	justify-content: space-between;
+	align-items: center;
+}
+.content-reset-header>span.reset-title {
+	font-size: 4.8vw;
+	color: #333;
+}
+.content-reset-header>span.reset-more {
+	font-size: 3.2vw;
+	color: #999;
+}
+.content-reset-header>span.reset-more>img {
+	margin-left: 1vw;
+	vertical-align: middle;
+}
+.crowd-funding-top {
+	
+}
+.crowd-funding-content {
+	display: flex;
+}
+.crowd-funding-content-left {
+	flex-grow: 1;
+}
+.crowd-funding-content-left>p {
+	margin-top: 1vw;
+	font-size: 3.7vw;
+	color: #333;
+}
+.crowd-funding-content-left>h2 {
+	width: 54.666667vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 1vw 0 0 1.1vw;
+	font-size: 2.9vw;
+	color: #7D4402;
+	background-color: #FFF9E3;
+	border: 0.5px solid rgb(245, 235, 209);
+}
+.crowd-funding-content-left>span {
+	margin-top: 1.1vw;
+	font-size: 2.67vw;
+	font-weight: 550;
+	color: #FE1F1D;
+}
+.crowd-funding-content-left>span>span {
+	font-size: 3.5vw;
+}
+.crowd-funding-content-left>p.support {
+	padding-top: 13vw;
+	height: 3.2vw;
+	font-size: 2.67vw;
+	color: #333;
+}
+.crowd-funding-content-left>p.support>span {
+	color: #EE8842;
+	margin: 0 1vw;
+}
+.crowd-funding-content>img {
+	width: 35.2vw;
+	height: 35.2vw;
+	flex-shrink: 0;
+}
+.progress-bar-wrapper {
+	height: 1.066667vw;
+	width: 100%;
+	background-color: #e1e1e1;
+	border-radius: 0.5vw;
+}
+.progress-bar {
+	width: 74%;
+	height: 100%;
+	border-radius: 0.5vw;
+	background: linear-gradient(to right, rgb(255, 200, 102), rgb(255, 88, 27));
+}
+.crowd-funding-bottom {
+	padding-top: 1.5vw;
+	display: flex;
+	justify-content: space-between;
+}
+.crowd-funding-left {
+	width: 42.4vw;
+}
+.crowd-funding-left>p {
+	padding-top: 1.5vw;
+	font-size: 3.2vw;
+	color: #333;
+}
+.crowd-funding-left>div {
+	display: flex;
+	justify-content: space-between;
+}
+.crowd-funding-left>div>p {
+	font-size: 3vw;
+	color: #FE1F1D;
+}
+.crowd-funding-left>div>p>span {
+	font-size: 4.1vw;
+	font-weight: 550;
+}
+.crowd-funding-left>div>img {
+	width: 20vw;
+	height: 20vw;
+}
+.crowd-funding-left-progress-bar {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.crowd-funding-left-progress-bar>div {
+	width: 100%;
+	font-size: 3vw;
+	color: #333;
+}
+.crowd-funding-left-progress-bar>div>img {
+	width: 5.333333vw;
+	height: 4.8vw;
+}
+.crowd-funding-left-progress-bar>div>div {
+	width: 95%;
+	border-radius: 1vw;
+	height: 1.066667vw;
+	background: linear-gradient(to right, rgb(255, 200, 102), rgb(255, 88, 27));
+}
+.selected,
+.seckill {
+	margin-top: 3vw;
+	background-color: #fff;
+	border-radius: 2.5vw;
+}
+.selected-content,
+.seckill-content {
+	white-space: nowrap;
+	box-sizing: border-box;
+	padding: 2vw;
+	overflow-x: auto;
+}
+.selected-content::-webkit-scrollbar,
+.seckill-content::-webkit-scrollbar {
+	display: none;
+}
+.selected-content>li,
+.seckill-content>li {
+	white-space: initial;
+	display: inline-block;
+	vertical-align: top;
+	width: 24.8vw;
+	margin: 0 0.2vw;
+	border-radius: 1vw;
+	height: 33.333333vw;
+	text-align: center;
+}
+.selected-content>li:nth-child(1) {
+	background-color: rgb(237, 246, 248);
+}
+.selected-content>li:nth-child(2) {
+	background-color: rgb(252, 247, 241);
+}
+.selected-content>li>img,
+.seckill-content>li>img {
+	width: 100%;
+}
+.selected-content>li>span {
+	font-size: 2.933333vw;
+	color: #333;
+}
+.seckill-content>li>img {
+	background-color: rgb(248, 248, 248);
+}
+.seckill-content>li>p {
+	font-size: 3.5vw;
+	font-weight: 550;
+	color: #FE1F1D;
+}
+.seckill-content>li>p>span {
+	font-size: 2.5vw;
+	font-weight: 400;
+	text-decoration: line-through;
+	color: #999;
+}
+.more-tip {
+	height: 45vw;
+	line-height: 45vw;
+	text-align: center;
+	font-size: 3.466667vw;
+	color: #999;
+}

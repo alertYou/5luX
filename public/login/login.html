@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="/assets/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="/plugins/validform/Validform_v5.3.2.css"/>
+		<link rel="stylesheet" type="text/css" href="/plugins/layer/theme/default/layer.css"/>
+		<link rel="stylesheet" type="text/css" href="/assets/font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="login.css"/>
+		<title>登录</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="login">
+				<div class="header">
+					<div class="header-left">
+						<span>选择语言</span>
+						<i class="triangle iconfont icon-xiaosanjiaodown"></i>
+					</div>
+					<div class="header-right">
+						<i class="policy iconfont icon-guifandunpai"></i>
+						<i class="help iconfont icon-iconset0143"></i>
+					</div>
+				</div>
+				<div class="logo-wrapper">
+					<div class="logo">
+						<span></span>
+					</div>
+					<div class="tip">
+						<p>欢迎登录小米有品</p>
+					</div>
+				</div>
+				<div class="content-wrapper">
+					<div class="content">
+						<div class="user-name show">
+							<div class="title">
+								<h4>小米账号登录</h4>
+							</div>
+							<form class="login" action="">
+								<div class="phone-wrapper">
+									<input class="name" type="text" placeholder="邮箱/手机号/小米ID" datatype="s4-15" nullmsg="请输入账号" />
+								</div>
+								<div class="pwd-wrapper">
+									<input class="pwd" type="password" placeholder="请输入密码" datatype="s3-10" nullmsg="请输入登录密码" />
+								</div>
+							</form>
+							<div class="btn-login-wrapper">
+								<button class="btn-login">登录</button>
+							</div>
+						</div>
+						<div class="user-phone">
+							<div class="title">
+								<h4>小米账号登录</h4>
+							</div>
+							<form class="login" action="">
+								<div class="phone-wrapper">
+									<span>+86<img src="/images/icon_arrow_right_min_lightgray.png" alt="" /></span>
+									<input class="phone" type="text" placeholder="请输入手机号" /><!-- datatype="s11" nullmsg="请输入手机号" -->
+								</div>
+							</form>
+							<div class="btn-login-wrapper">
+								<button class="btn-next">下一步</button>
+							</div>
+						</div>
+						<!-- <div class="language">
+							<dl>
+								<dt>选择语言</dt>
+								<dd>中文(简体)</dd>
+								<dd>中文(繁体)</dd>
+								<dd>English</dd>
+							</dl>
+						</div> -->
+					</div>
+				</div>
+				<div class="toggle-wrapper">
+					<ul>
+						<li class="phone-login">手机号登录</li>
+						<li>|</li>
+						<li>立即注册</li>
+						<li>|</li>
+						<li>忘记密码?</li>
+					</ul>
+					<div><p>用户名密码登录</p>|<p>立即注册</p></div>
+				</div>
+				<div class="footer">
+					<div class="tip">
+						<span>———— 其他方式登录 ————</span>
+					</div>
+					<ul>
+						<li><i class="iconfont icon-QQ"></i></li>
+						<li><i class="iconfont icon-weibo1"></i></li>
+						<li><i class="iconfont icon-zhifubao"></i></li>
+						<li><i class="iconfont icon-weixin"></i></li>
+						<li><i class="iconfont icon-apple-fill"></i></li>
+					</ul>
+				</div>
+			</div>
+			<div class="logon">
+				<div class="logon-header">
+					<img src="/images/return.png" alt="" />
+					<span>
+						<i class="iconfont icon-guifandunpai"></i>
+						<i class="iconfont icon-iconset0143"></i>
+					</span>
+				</div>
+				<h4>注册小米账号</h4>
+				<p>系统会根据您选择的国家/地区的法律法规存储您的个人信息</p>
+				<div class="input-wrapper">
+					<form action="" name="" class="logon">
+						<div class="name">
+							<input type="text" datatype="s4-15" placeholder="请输入用户名..." />
+						</div>
+						<div class="phone">
+							<input type="text" datatype="m" placeholder="请输入手机号..." nullmsg="请填写正确手机号" errormsg="请输入正确的手机号" />
+						</div>
+						<div class="pwd-wrapper">
+							<input type="password" name="userpassword" datatype="*6-15" errormsg="密码范围" placeholder="请输入密码" />
+						</div>
+						<div class="ypwd-wrapper">
+							<input type="password" name="userpassword2" datatype="*" recheck="userpassword" errormsg="您两次输入的密码不一致" placeholder="请确认密码" />
+						</div>
+					</form>
+				</div>
+				<button class="btn-logon">注册</button>
+			</div>
+		</div>
+		<!-- <form action="" class="login">
+			<div class="form-item-group">
+				<input class="name" type="text"value="请输入用户名.." tip="请输入用户名.." datatype="s4-20" errormsg='用户名4-20长度！' nullmsg="用户名必填" />
+			</div>
+			<div class="form-item-group">
+				<input class="pwd" type="password" placeholder="请输入密码..." datatype="s3-20" errormsg='密码长度3-20' nullmsg="请输入密码" />
+			</div>
+		</form>
+		<button class="btn-login">登录</button> -->
+		
+		<script src="/assets/js/js-cookie.js"></script>
+		<script src="/assets/js/jQuery-1.8.2.js"></script>
+		<script src="/plugins/layer/layer.js"></script>
+		<script src="/plugins/validform/Validform_v5.3.2.js"></script>
+		<script src="login.js"></script>
+	</body>
+</html>

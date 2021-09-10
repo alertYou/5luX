@@ -1,0 +1,110 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	/* justify-content: space-between; */
+}
+.container>.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	flex-shrink: 0;
+	height: 12vw;
+	background-color: #fff;
+}
+.container>.header>p {
+	font-size: 16px;
+	color: #777;
+}
+.container>.header>span {
+	width: 10vw;
+	height: 10vw;
+	background: url(../images/icon_search_darkblack.png) no-repeat;
+	background-size: contain;
+}
+.container>.content {
+	display: flex;
+	box-sizing: border-box;
+	flex-grow: 1;
+	overflow: hidden;
+}
+.container>.content:after {
+	z-index: 4;
+	width: 100%;
+	border-color: rgb(239,239,240);
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+.content>ul.list-main {
+	display: inline-block;
+	width: 25vw;
+	height: 100%;
+	overflow: auto;
+	background-color: #fff;
+}
+.content>ul.list-main::-webkit-scrollbar,
+.content>.right::-webkit-scrollbar {
+	display: none;
+}
+.content>ul.list-main>li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10%;
+}
+.content>ul.list-main>li>span {
+	flex-shrink: 0;
+	border-radius: 12px;
+	color: #777;
+	font-size: 16px;
+}
+.content>ul.list-main>li.active>span {
+	padding: 2px 5px;
+	background: linear-gradient(to right, rgb(230, 170, 92), rgb(208, 139, 48));
+	color: #fff;
+}
+.content>.right {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 75vw;
+	height: 100%;
+	padding: 2vw 2vw 0;
+	background-color: rgb(246, 246, 246);
+	overflow: auto;
+}
+.content>.right>img {
+	width: 100%;
+	border-radius: 3vw;
+	padding-bottom: 2vw;
+}
+.content>.right>ul.list-sub {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: stretch;
+	padding: 5vw 0;
+	border-radius: 3vw;
+	background-color: #fff;
+}
+.content>.right>ul.list-sub>li {
+	width: 17.6vw;
+	padding: 6vw 1vw;
+}
+.content>.right>ul.list-sub>li>a {
+	width: 100%;
+	height: 100%;
+}
+.content>.right>ul.list-sub>li>a>img {
+	width: 100%;
+	border-radius: 2vw;
+	background-color: rgb(248, 248, 248);
+}
+.content>.right>ul.list-sub>li>a>p {
+	text-align: center;
+	font-size: 14px;
+	color: #777;
+}
+
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="/assets/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="/plugins/layer/mobile/need/layer.css"/>
+		<link rel="stylesheet" href="/plugins/region/regions_picker_m.css">
+		<link rel="stylesheet" type="text/css" href="order_conform.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="content">
+				<div class="header-wrapper">
+					<div class="header">
+						<span><img src="/images/icon_arrow_left_black.png" alt="" /></span>
+						<p>确认订单</p>
+						<span></span>
+					</div>
+				</div>
+				<div class="address-wrapper">
+					<!-- <div>
+						<span class="name">是南非</span>
+						<span class="phone">123****1234</span>
+						<p class="address">大师傅啊 发生的 大师傅啊 发生的大师傅啊 发生的大师傅啊 发生的大师傅啊 发生的打发撒旦撒 案说法爱国撒发生</p>
+					</div> -->
+					<span>
+						<img src="/images/icon_arrow_right_min_lightgray.png" alt="" />
+					</span>
+				</div>
+				<div class="product-wrapper">
+					<div class="product-header">
+						<img src="/images/index/52ec26cccb4d945aa4bacac4ec7c4622.png" alt="" />小米官方旗舰店
+					</div>
+					<div class="product-content">
+						<!-- <div class="product">
+							<img src="" alt="" />
+							<div class="product-detail">
+								<div class="name-wrapper">
+									<p><span>特价</span>爱看付款把可贵啊发的发表安徽阜南发卡恩爱回</p>
+								</div>
+								<div class="price-count">
+									<div class="price-wrapper">
+										<div>￥<span class="price">3999</span>.00<p>￥<span class="price-used">4999</span>.00</p></div>
+										<span class="count-wrapper">×<span class="count">1</span></span>
+									</div>
+									<div class="guarantee">7天无理由退货</div>
+								</div>
+							</div>
+						</div> -->
+					</div>
+					<div class="product-footer">
+						<div class="invoice">
+							<p>发票类型</p>
+							<span>个人电子发票<img src="/images/icon_arrow_right_darkgray.png" alt="" /></span>
+						</div>
+						<div class="express">
+							<p>配送方式</p>
+							<span>快递配送</span>
+						</div>
+						<div class="message-board">
+							<p>买家留言</p>
+							<span>填写内容与商家协商并确认，45字以内</span>
+						</div>
+					</div>
+				</div>
+				<div class="now-total-wrapper">
+					<!-- <div class="total-wrapper">
+						<p>商品总价</p>
+						<span>￥<span>3998</span></span>
+					</div>
+					<div class="freight">
+						<p>运费</p>
+						<span>+￥0.00</span>
+					</div>
+					<div class="activity">
+						<p>活动优惠</p>
+						<span>-￥<span></span>.00</span>
+					</div> -->
+					<div class="coupon">
+						<p>优惠券</p>
+						<span>暂无可用<img src="/images/icon_arrow_right_darkgray.png" alt="" /></span>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div>合计：<p>￥<span class="tatol"></span><span></span>.00</p>免运费</div>
+				<button>提交订单</button>
+			</div>
+			
+		</div>
+		<div class="add-address-wrapper" style="display: none;">
+			<div class="add-header">
+				<span>
+					<img src="/images/icon_arrow_left_black.png" alt="" />
+				</span>
+				<p>新增地址</p>
+				<span></span>
+			</div>
+			<div class="profile-detail-wrapper">
+				<div class="profile-detail">
+					<form action="">
+						<input class="id" type="hidden" value="0" />
+						<div>
+							<label for="name">收货人姓名</label>
+							<input class="receive-name" type="text" name="name"  placeholder="请输入收货人姓名" />
+						</div>
+						<div>
+							<label for="phone">手机号码</label>
+							<input class="receive-phone" type="text" name="phone" placeholder="请输入收货人电话" />
+						</div>
+						<div>
+							<label for="">收货地区</label>
+							<input class="receive-region regions-picker" type="text" name="" placeholder="请输入省/市/区/街道" />
+						</div>
+						<div>
+							<label for="">详细地址</label>
+							<input class="receive-detail" type="text" name="" placeholder="请输入街道地址" />
+						</div>
+					</form>
+				</div>
+				<h6 class="seam"></h6>
+				<div class="is-default-wrapper">
+					<label for="">设为默认地址</label>
+					<div class="is-default">
+						<div class="switch"></div>
+						<div class="bgcolor"></div>
+						<input class="btn-default" type="checkbox" />
+					</div>
+				</div>
+				<p class="remove-address" style="display: none;">删除收货地址</p>
+			</div>
+			
+			<div class="add-footer">
+				<button>保存</button>
+			</div>
+		</div>
+		
+		
+		<script src="/assets/js/jQuery-1.8.2.js"></script>
+		<script src="/assets/js/js-cookie.js"></script>
+		<script src="/plugins/layer/layer.js"></script>
+		<script src="/assets/js/jquery.query.js"></script>
+		<script src="/plugins/region/regions.js"></script>
+		<script src="/plugins/region/regions_picker_m.js"></script>
+		<script src="order_conform.js"></script>
+	</body>
+</html>

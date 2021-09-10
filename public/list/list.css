@@ -1,0 +1,216 @@
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.header {
+	flex-shrink: 0;
+	background-color: #fff;
+}
+.header>.top {
+	display: flex;
+	height: 11.733333vw;
+	justify-content: space-between;
+	align-items: center;
+}
+.header>.top>.btn-return {
+	width: 8.533333vw;
+	height: 8.533333vw;
+	background: url(/images/icon_arrow_left_darkblack.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 1vw;
+}
+.header>.top>p {
+	text-align: center;
+	font-size: 4vw;
+	color: #333;
+}
+.header>.top>.btn-search {
+	width: 8vw;
+	height: 8vw;
+	margin-right: 1vw;
+	background: url(/images/icon_search_darkblack.png) no-repeat;
+	background-size: 100% 100%;
+}
+.header>.title-wrapper>ul {
+	/* overflow-x: auto; */
+	height: 25.333333vw;
+	/* white-space: nowrap; */
+}
+.header>.title-wrapper>ul::-webkit-scrollbar {
+  display: none;
+}
+.header>.title-wrapper>ul.swiper-wrapper>li.swiper-slide {
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0 1.5vw;
+	width: 15.466667vw;
+}
+.header>.title-wrapper>ul.swiper-wrapper>li>img {
+	width: 100%;
+	border-radius: 2vw;
+	background-color: rgb(243, 244, 245);
+	border: 1px solid transparent;
+}
+.header>.title-wrapper>ul.swiper-wrapper>li.act>img{
+	border: 1px solid orange;
+}
+.header>.title-wrapper>ul>li>p {
+	text-align: center;
+	font-size: 2.5vw;
+	color: #333;
+}
+.header>.title-wrapper>ul.swiper-wrapper>li.act>p {
+	color: orange;
+}
+.content {
+	flex-grow: 1;
+	overflow: hidden;
+	touch-action: pan-y;
+}
+.scroll-wrapper {
+	/* overflow: auto; */
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+ul.order-wrapper {
+	display: flex;
+	align-items: center;
+}
+ul.order-wrapper>li {
+	flex: 1;
+	/* height: 7vw; */
+	line-height: 10vw;
+	text-align: center;
+	font-size: 3.2vw;
+	color: #333;
+}
+.active>span {
+	font-weight: bold;
+}
+ul.order-wrapper>li>i {
+	display: inline-block;
+	width: 0.3vw;
+	font-size: 3.2vw;
+	font-weight: bolder;
+}
+.active.desc>i.icon-desc {
+	color: #F12020;
+}
+.active.asc>i.icon-desc {
+	color: #000000;
+}
+.active.asc>i.icon-asc {
+	color: #F12020;
+}
+.active.desc>i.icon-asc {
+	color: #000000;
+}
+ul.product-list {
+	/* height: 100%; */
+	/* overflow: auto; */
+}
+ul.product-list>li {
+	box-sizing: border-box;
+	/* height: 40vw; */
+	padding: 0 3.2vw;
+}
+ul.product-list>li>a {
+	display: flex;
+}
+ul.product-list>li>a>img {
+	width: 33.6vw;
+	height: 33.6vw;
+}
+ul.product-list>li>a>.detail-right {
+	box-sizing: border-box;
+	padding-top: 4vw;
+	flex-grow: 1;
+}
+ul.product-list>li>a>.detail-right>h3.detail-name {
+	height: 8.53vw;
+	line-height: 8.53vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 4vw;
+	font-weight: 400;
+	color: #333;
+}
+ul.product-list>li>a>.detail-right>p.detail-brief {
+	line-height: 5.5vw;
+	font-size: 2.93vw;
+	color: #888;
+}
+ul.product-list>li>a>.detail-right>span.detail-total-wrapper {
+	height: 8vw;
+	font-size: 3vw;
+	color: #FF4F0B;
+}
+ul.product-list>li>a>.detail-right>span.detail-total-wrapper>span.detail-total {
+	font-size: 4vw;
+	color: #FF4F0B;
+}
+ul.product-list>li>a>.detail-right>p.detail-rate-wrapper {
+	font-size: 3vw;
+	color: #afafaf;
+}
+ul.product-list>li>a>.detail-right>p.detail-rate-wrapper>span {
+	color: #ff5959;
+}
+p.tip {
+	height: 42.625vw;
+	line-height: 42.625vw;
+	color: #999;
+}
+.search-wrapper>.search-top {
+	display: flex;
+	align-items: center;
+	height: 11.733333vw;
+}
+.search-wrapper>.search-top>span {
+	width: 8.533333vw;
+	height: 8.533333vw;
+	margin: 0 3vw;
+	background: url(/images/icon_arrow_left_darkblack.png) no-repeat;
+	background-size: 100%;
+}
+.search-wrapper>.search-top>div {
+	position: relative;
+	flex-grow: 1;
+	display: flex;
+	padding: 1vw 0;
+	border-radius: 4vw;
+	background-color: #e8e8e8;
+	overflow: hidden;
+}
+.search-wrapper>.search-top>div>span {
+	width: 6.4vw;
+	height: 6.4vw;
+	background: url(/images/icon_search_darkblack.png) no-repeat;
+	background-size: 100%;
+}
+.search-wrapper>.search-top>div>div.search-content-wrapper {
+	position: absolute;
+	width: 100%;
+	left: 9vw;
+	top: 0;
+	height: 100%;
+	z-index: 0;
+}
+.search-wrapper>.search-top>div>div.search-content-wrapper .search-list-term {
+	box-sizing: border-box;
+	padding-top: 1.2vw;
+}
+.search-wrapper>.search-top>button {
+	/* height: 6vw; */
+	border-radius: 4vw;
+	padding: 1vw 2.3vw;
+	margin: 0 3vw;
+	background-color: rgb(205, 140, 57);
+	font-size: 3.5vw;
+	color: #FFF;
+}

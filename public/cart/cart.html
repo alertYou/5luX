@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="/assets/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="/assets/font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="/assets/css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="cart.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<div>
+					<img src="/images/icon_arrow_left_white2.png" alt="" />
+					<p>购物车</p>
+					<div class="edit">
+						<span>编辑</span>
+						<p>完成</p>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="not-logon">
+					<img src="/images/no_result_cart2.png" alt="" />
+					<p>目前没有添加商品哦~</p>
+					<div class="border-1px">去登陆</div>
+				</div>
+				<div class="cater-list-wrapper" style="display: none;">
+					<ul class="cater-list">
+						<li>
+							<div class="cater-list-title">
+								<span class="checkbox"></span>
+								<span class="checkbox-del"></span>
+								<p class="title-name"></p>
+							</div>
+							<ul class="similar-list del">
+								<li>
+									<span class="checkbox"></span>
+									<span class="checkbox-del"></span>
+									<img src="/images/product/01.png" alt="" />
+									<div class="product-detail">
+										<p class="product-name"></p>
+										<div class="product-price-wrapper">
+											<span class="price-wrapper">￥<span class="price"></span>.00</span>
+											<span class="product-count-wrapper">
+												<button class="decrease"><i class="iconfont icon-jian"></i></button>
+												<input class="product-count" type="text" value="1" />
+												<button class="increase"><i class="iconfont icon-jia"></i></button>
+											</span>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					
+					
+				</div>
+			</div>
+			<div class="cater-settlement">
+				<div class="cater-settlement-checkbox">
+					<span class="checkbox all"></span>
+					<span class="checkbox-del all"></span>
+					全选
+				</div>
+				<div class="cater-settlement-total-wrapper money">
+					<div class="cater-settlement-total">
+						合计：<span class="total-wrapper">￥<span class="total"></span>.00</span>
+						<button class="btn-total">结算<p>(<span class="sum-up"></span>)</p></button>
+					</div>
+					<div class="remove-wrapper">
+						<button class="btn-remove">删除</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="/assets/js/jQuery-1.8.2.js"></script>
+		<script src="/assets/js/js-cookie.js"></script>
+		<script src="/plugins/layer/layer.js"></script>
+		<script src="cart.js"></script>
+	</body>
+</html>

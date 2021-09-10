@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="/assets/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="/plugins/layer/mobile/need/layer.css"/>
+		<link rel="stylesheet" type="text/css" href="pay.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<span>
+					<img src="/images/icon_arrow_left_darkblack.png" alt="" />
+				</span>
+				<p>有品收银台</p>
+				<span></span>
+			</div>
+			<div class="content">
+				<div class="total-wrapper">
+					<div>￥<span class="total"></span>.00</div>
+					<div class="time-wrapper">支付剩余时间：<span class="time"></span></div>
+				</div>
+				<div class="pay-mode-wrapper">
+					<div class="">
+						<div>
+							<img src="/images/pay_alipay.png" alt="" />
+							<p>支付宝</p>
+							<span>推荐</span>
+						</div>
+						<span class="checkbox checked"></span>
+					</div>
+					<div class="">
+						<div>
+							<img src="/images/pay_mipay.png" alt="" />
+							<p>小米钱包</p>
+						</div>
+						<span class="checkbox"></span>
+					</div>
+					<div class="">
+						<div>
+							<img src="/images/mi_installment.png" alt="" />
+							<p>小米分期</p>
+						</div>
+						<span class="checkbox"></span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<button>确认支付￥<span class="total"></span>.00</button>
+			</div>
+		</div>
+		
+		<script src="/assets/js/jQuery-1.8.2.js"></script>
+		<script src="/assets/js/jquery.query.js"></script>
+		<script src="/assets/js/js-cookie.js"></script>
+		<script src="/plugins/layer/mobile/layer.js"></script>
+		<script src="pay.js"></script>
+	</body>
+</html>

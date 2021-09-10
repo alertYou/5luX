@@ -1,0 +1,26 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+img {
+	margin-top: 30vw;
+	width: 45vw;
+	height: 45vw;
+}
+.total-wrapper {
+	font-size: 10vw;
+	color: #F12020;
+}
+.time-wrapper {
+	margin-top: 5vw;
+	font-size: 12vw;
+	color: #F12020;
+}
+.tip {
+	margin-top: 5vw;
+	font-size: 7vw;
+	color: #F12020;
+}
